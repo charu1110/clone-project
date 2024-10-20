@@ -1,0 +1,339 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color:white;
+    margin:0;
+    overflow:hidden;
+}
+.main {
+    display:flex;
+    height:100vh;
+    
+}
+.navbar{
+    background-color: black;;
+    height: 60px;
+    width:100%;
+    position: sticky;
+    top:0px;
+}
+.sidebar
+{
+    background-color:#121212;
+    position:absolute;
+    left:0.45rem;
+    top:63px;
+    height:100%;
+    width:420px;
+    border-radius: 0.4rem;
+    
+}
+.main-content{
+    /* background-color: #121212; */
+    position:absolute;
+    background:linear-gradient(#242323,black,black);
+    top:63px;
+    left:435px;
+    border-radius: 0.4rem;
+    width:1185px;
+    height:100%;
+    overflow:auto;
+}
+.sinup-footer{
+    
+    background:linear-gradient(90deg, #af2896, #509bf5);
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:72px;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:8px;
+  
+}
+.search{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:-10px;
+}
+.house-icon{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #1f1f1f;
+    height:48px;
+    width:48px;
+    border-radius:50%;
+    text-align: center;
+    
+}
+.search-icon{
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    color:white;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #1f1f1f;
+}
+.search-bar{
+    font-size: 17px;
+    color:white;
+    border:none;
+    text-decoration:none;
+    border-top-right-radius:30px;
+    border-bottom-right-radius: 30px;
+    background-color: #1f1f1f;
+}
+.logo{
+    height:35px;
+    width:48px;
+    margin-top:-10px;
+}
+.signup-buttons{
+    position:absolute;
+    right:10px;
+    margin-top:-10px;
+}
+.sign-up{
+    border:none;
+    width:96px;
+    height:48px;
+    font-size:0.93rem;
+    font-weight: 750;
+    background-color: black;
+    color:white;
+    opacity:0.7;
+}
+.sign-up:hover{
+    opacity:1;
+    font-size: 1rem;;
+}
+.badge{
+    width:109px;
+    height:48px;
+    font-size: 1rem;
+    font-weight: 600;
+    border:none;
+    background-color: white;
+    color:black;
+    border-radius:55px;
+}
+.badge:hover{
+    opacity:0.9;
+    height:50px;
+    width:111px;
+}
+.nav{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+   justify-content: space-between;
+   
+   width:420px;
+   height:60px;
+}
+.library-icon{
+    height:1.3rem;
+    width:1.3rem;
+    margin-left:24px;
+    margin-right:15px;
+}
+.navy{
+    opacity:0.7;
+
+}
+.navy:hover{
+    opacity:1;
+
+}
+.boxx{
+    height:310px;
+    overflow: auto;
+    padding:0.5rem;
+}
+
+.box1{
+    height:100px;
+    background-color: #232323;
+    border-radius:0.55rem;
+    margin:8px 0px;
+    margin-bottom:20px;
+    padding:11px 20px;
+     
+    
+ }
+ .box1 .box-p1{
+    height:23px;
+    margin:7px 0px;
+    font-weight:600;  
+    font-size: 1rem;
+}
+.box1 .box-p2{
+   height:23px;
+   width:250px;
+   margin:6px 0px;
+   font-size: 0.80rem;
+}
+.badges{
+    background-color:white;
+    border:none;
+    border-radius:100px;
+    padding:0.1rem 1rem;
+    font-weight:600;
+    height:2rem;
+   margin-top:0rem;
+}
+.badges:hover{
+    opacity:0.9;
+    height:2.1rem;
+    font-weight:650;
+    
+}
+.sidebar-footer .anchors{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
+.sidebar-footer a{
+    margin-right:20px; 
+    margin-bottom:20px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color:white;
+    opacity:0.8;
+   
+}
+.anchors{
+    margin:32px 0px;
+    padding:0px 24px;
+}
+.english-badge{
+    margin-left:30px;
+    width:96px;
+    height:32px;
+    border-radius:50px;
+    background-color: #121212;
+    color:white;
+    font-weight: 700;
+    font-size: 14px;
+    border:0.1px solid white;
+    opacity:0.8;
+}
+.english-badge:hover{
+    opacity:1;
+    height:33px;
+    width:97px;
+}
+.heading{
+    margin:14px 0px 0px 20px;
+}
+.heading:hover{
+    text-decoration:white underline;
+    cursor:pointer;
+
+}
+.artist1{
+    border-radius:0.5rem;
+    padding:0.3rem;
+    height:220px;
+    width:175px;
+    
+}
+.artist1 p{
+    margin-left:5px;
+    line-height:20px;
+    margin:0px;
+}
+.artist1:hover{
+    background-color: #212121;
+}
+
+.boxes img{
+   margin-left:10px;
+   margin-top:10px;
+   height:155px;
+   width: 155px;
+   border-radius:65%;
+   
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding-bottom:40px;
+    padding-left:0px;
+    position:relative;
+    left:-25px;
+    
+}
+.card{
+   
+    width:130px;
+    border-radius:0.5rem;
+    padding:1rem;
+    margin-left:0rem;
+    margin-top:0rem;
+    
+}
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.card img {
+    width:130px;
+    border-radius:0.5rem;
+}
+.card-title{
+    
+    font-weight: 700;
+}
+.card-info{
+   
+    font-size: 0.8rem;
+    
+}
+.card:hover{
+    background-color:#1c1b1b;
+}
+.image{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.playbutton{
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: 0.3s;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+.play{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    position:absolute;
+    
+    right:10px;
+    bottom:30px;
+    background-color: rgb(97, 216, 97);
+    border-radius: 50%;
+    color:black;
+}
+.playbutton:hover{
+    opacity:1;
+    font-size: 1.3rem;
+}
